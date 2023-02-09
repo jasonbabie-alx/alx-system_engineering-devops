@@ -1,0 +1,2 @@
+#!/bin/bash
+chown --changes betty hello && [ "$(stat -c '%U' hello)" == guillaume]
