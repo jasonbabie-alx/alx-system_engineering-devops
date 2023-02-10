@@ -1,2 +1,2 @@
 #!/bin/bash
-source 11-extn
+ls -l -n -a . .. /boot
