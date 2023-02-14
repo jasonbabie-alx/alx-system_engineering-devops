@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(bc -l <<< "$POWER / $DIVIDE")"
+printf "%.0f\n" "$(bc -l <<< "$POWER / $DIVIDE")"
